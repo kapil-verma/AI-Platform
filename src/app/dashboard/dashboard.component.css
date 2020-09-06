@@ -1,0 +1,12 @@
+.myDiv{
+    width:100%;
+    height:400px;
+    background: url("https://i.ytimg.com/vi/KFqsdtEabk0/maxresdefault.jpg") no-repeat center center;
+    background-size: cover; 
+   }
+   .fa-info-circle{
+     color:#e9af03;
+   } 
+   .myImage{
+    filter: opacity(70%);
+   }

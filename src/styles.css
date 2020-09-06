@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+/*try to use virtusa brand colors as the theme of website bottstrap saas theming blue:#3F43AD orange:#FF6C2F */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/themes/material.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+
+.myHeading{
+    font-size: 56px;
+    background-image: -webkit-linear-gradient(45deg,#00d2ff 0%,#00d2ff 18%, #000428 100%); /* For Chrome and Safari */
+    background-image:         linear-gradient(45deg, #00d2ff 0%,#00d2ff 18%, #000428 100%); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#signup-response{
+    
+    animation:signup-response 0.5s 1;
+    -webkit-animation:signup-response 0.5s 1;
+    animation-fill-mode: forwards;
+    
+    animation-delay:2s;
+    -webkit-animation-delay:2s; /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+    
+} 
+@keyframes signup-response{
+    from {opacity :1;}
+    to {opacity :0;
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+
+@-webkit-keyframes signup-response{
+    from {opacity :1;}
+    to {opacity :0;
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+/* css for scroll up starts */
+.scrollup, .scrollup:visited {
+    position: fixed;
+    bottom: -100px;
+    right: 40px;
+    padding: 5px 14px 14px 15px;
+    text-indent: 0;
+    color: #fff;
+    background-color: #d4b65b;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    line-height: 0;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,.15);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,.15);
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+    z-index: 3;
+}
+.scrollup-slidein {
+    -webkit-transform: translateY(-130px);
+    -moz-transform: translateY(-130px);
+    transform: translateY(-130px);
+}
+/* css for scroll up ends */
+
+

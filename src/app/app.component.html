@@ -1,0 +1,60 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<head>
+</head>
+<body > 
+  <nav id="navigation" class=" navbar navbar-expand-lg navbar-light sticky-top  shadow-sm" style="background: linear-gradient(to right, rgba(0,123,255,1) 0%, rgba(0,123,255,1) 61%, rgba(49,86,128,1) 100%);">
+    <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
+      Menu <span ><i class="fa fa-bars"></i></span>
+    </button>
+   
+    <div class="collapse navbar-collapse " id="navbarResponsive">
+      <div class="navbar-nav mr-auto">
+          <br>
+        
+        
+        <a class="nav-item nav-link js-scroll-trigger" routerLink="/dashboard">Dashboard</a>
+        <a class="nav-item nav-link js-scroll-trigger" routerLink="/features">Features</a>
+        <a class="nav-item nav-link js-scroll-trigger" routerLink="/playbox">Playbox</a>
+        
+      </div>
+        <div class=" navbar-nav ml-auto" >
+          <nav > 
+            <form class="form-inline my-2 my-lg-0" >
+                <input class="rounded form-control collapse" type="text" autofocus="" placeholder="Search" id="collapseSearch" aria-label="Search" style="margin:auto;max-width:300px" > &nbsp;
+                <button class="btn btn-outline-info my-2 my-sm-0" data-toggle="collapse" type="submit" href="#collapseSearch" role="button" aria-expanded="false" aria-controls="collapseSearch"><i class="fa fa-search"></i></button>           
+              </form>
+          </nav>
+        </div>  
+      
+    </div>
+  </nav>
+ 
+  <router-outlet></router-outlet>
+  <nav class="navbar sticky-bottom navbar-dark bg-dark d-flex justify-content-around">
+    <div class="navbar-expand navbar-text">
+       AI <i class="fa fa-cogs"></i> builds <a href="#">AIEP 2.0</a>
+    </div> 
+    <div class=" navbar-text"> 
+        <div style="text-align: center;">
+            <a href="#" align="center" class="btn btn-outline-info btn-lg pt-0 pb-0 " style="border-radius: 2rem;">Contact us</a>
+        </div>
+        <small>&copy; 2019. All Rights Reserved.
+          <font size="2">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Support</a></li>
+              </ul>
+            </font>
+        </small>      
+    </div> 
+    <div class="btn-group btn-group-sm" role="group" aria-label="footer">
+        <a href="https://www.facebook.com/VirtusaCorp" class="btn btn-secondary" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/companies/virtusa" class="btn btn-secondary" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://plus.google.com/+virtusa" class="btn btn-secondary" target="_blank"><i class="fa fa-google-plus"></i></a>
+        <a href="https://twitter.com/VirtusaCorp" class="btn btn-secondary" target="_blank"><i class="fa fa-twitter"></i></a>
+      </div>
+      
+  </nav>
+
+</body>
