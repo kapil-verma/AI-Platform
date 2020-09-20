@@ -1,6 +1,6 @@
 # AI-Platform 
 A responsive web platform developed using Angular web framework and bootstrap. <br><br> <b>Current State:</b> It is having <b>3</b> routed sections along with a Home page as its main route viz. <b>Dashboard</b> (For tracking user activity.), <b>Features</b> (For documenting every aspect of the platform.), <b>Playbox</b> (For AI Experimentation and data visualization. It has a grid component implemented with `ngx-datatable` which supports sorting, column swapping and filtering functionalities, in which user can import any csv/xslx files. User can explore the data with quick stats in that grid component and full-fledged Statistics of imported data, in other side panel).
-<br>🚧 Unfinished as of now.
+<br>🤝 Collaborative work	🚧 Unfinished as of now.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
